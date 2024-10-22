@@ -1,5 +1,2 @@
-2024/05/14-21:36:00.850071 0x1f36b3ac0 Recovering log #18
-2024/05/14-21:36:00.850261 0x1f36b3ac0 Level-0 table #20: started
-2024/05/14-21:36:00.850286 0x1f36b3ac0 Level-0 table #20: 0 bytes OK
-2024/05/14-21:36:00.862820 0x1f36b3ac0 Delete type=3 #16
-2024/05/14-21:36:00.862843 0x1f36b3ac0 Delete type=0 #18
+2024/10/22-20:53:06.612823 0x1f2a83240 Creating DB /Users/lllzt/Library/Rime/easy_en.userdb since it was missing.
+2024/10/22-20:53:06.640101 0x1f2a83240 Delete type=3 #1
