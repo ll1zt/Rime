@@ -1,13 +1,8 @@
-2024/10/22-21:16:29.899606 0x1f2a83240 Recovering log #25
-2024/10/22-21:16:29.899796 0x1f2a83240 Level-0 table #27: started
-2024/10/22-21:16:29.905710 0x1f2a83240 Level-0 table #27: 392 bytes OK
-2024/10/22-21:16:29.922519 0x1f2a83240 Delete type=3 #23
-2024/10/22-21:16:29.922994 0x1f2a83240 Delete type=0 #25
-2024/10/22-21:16:29.923174 0x16d277000 Compacting 4@0 + 0@1 files
-2024/10/22-21:16:29.927494 0x16d277000 Generated table #29@0: 15 keys, 611 bytes
-2024/10/22-21:16:29.927616 0x16d277000 Compacted 4@0 + 0@1 files => 611 bytes
-2024/10/22-21:16:29.936874 0x16d277000 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/10/22-21:16:29.939704 0x16d277000 Delete type=2 #5
-2024/10/22-21:16:29.950998 0x16d277000 Delete type=2 #8
-2024/10/22-21:16:29.951041 0x16d277000 Delete type=2 #21
-2024/10/22-21:16:29.951053 0x16d277000 Delete type=2 #27
+2024/10/27-10:31:21.128000 9684 Log #59: 0 ops saved to Table #62 OK
+2024/10/27-10:31:21.128000 9684 Archiving C:\Users\lllzt\Documents\Rime\luna_pinyin.userdb/000059.log: OK
+2024/10/27-10:31:21.129000 9684 Log #61: 0 ops saved to Table #63 OK
+2024/10/27-10:31:21.129000 9684 Archiving C:\Users\lllzt\Documents\Rime\luna_pinyin.userdb/000061.log: OK
+2024/10/27-10:31:21.129000 9684 Table #46: 20 entries OK
+2024/10/27-10:31:21.129000 9684 Table #48: 2272 entries OK
+2024/10/27-10:31:21.129000 9684 Archiving C:\Users\lllzt\Documents\Rime\luna_pinyin.userdb/MANIFEST-000058: OK
+2024/10/27-10:31:21.139000 9684 **** Repaired leveldb C:\Users\lllzt\Documents\Rime\luna_pinyin.userdb; recovered 2 files; 54128 bytes. Some data may have been lost. ****
