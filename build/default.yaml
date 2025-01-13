@@ -1,11 +1,11 @@
 __build_info:
   rime_version: 1.11.2
   timestamps:
-    default: 1728048116
-    default.custom: 1729605877
-    key_bindings: 1728048116
+    default: 1717774589
+    default.custom: 1736766879
+    key_bindings: 1717774589
     key_bindings.custom: 0
-    punctuation: 1728048116
+    punctuation: 1717774589
     punctuation.custom: 0
 ascii_composer:
   good_old_caps_lock: true
@@ -13,8 +13,9 @@ ascii_composer:
     Caps_Lock: commit_code
     Control_L: noop
     Control_R: noop
-    Shift_L: commit_code
-    Shift_R: commit_code
+    F3: noop
+    Shift_L: noop
+    Shift_R: noop
 config_version: 0.40
 key_binder:
   bindings:
@@ -25,7 +26,7 @@ key_binder:
     - {accept: period, send: Page_Down, when: has_menu}
     - {accept: bracketleft, send: Page_Up, when: paging}
     - {accept: bracketright, send: Page_Down, when: has_menu}
-    - {accept: "Control+Shift+4", toggle: simplification, when: always}
+    - {accept: F3, select: .next, when: always}
 menu:
   page_size: 9
 punctuator:
@@ -103,7 +104,7 @@ recognizer:
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
 schema_list:
   - schema: double_pinyin_flypy
-  - schema: easy_en
+  - schema: colemak
 switcher:
   abbreviate_options: true
   caption: "〔方案選單〕"

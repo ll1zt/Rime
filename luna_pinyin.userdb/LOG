@@ -1,8 +1,3 @@
-2024/10/27-10:31:21.128000 9684 Log #59: 0 ops saved to Table #62 OK
-2024/10/27-10:31:21.128000 9684 Archiving C:\Users\lllzt\Documents\Rime\luna_pinyin.userdb/000059.log: OK
-2024/10/27-10:31:21.129000 9684 Log #61: 0 ops saved to Table #63 OK
-2024/10/27-10:31:21.129000 9684 Archiving C:\Users\lllzt\Documents\Rime\luna_pinyin.userdb/000061.log: OK
-2024/10/27-10:31:21.129000 9684 Table #46: 20 entries OK
-2024/10/27-10:31:21.129000 9684 Table #48: 2272 entries OK
-2024/10/27-10:31:21.129000 9684 Archiving C:\Users\lllzt\Documents\Rime\luna_pinyin.userdb/MANIFEST-000058: OK
-2024/10/27-10:31:21.139000 9684 **** Repaired leveldb C:\Users\lllzt\Documents\Rime\luna_pinyin.userdb; recovered 2 files; 54128 bytes. Some data may have been lost. ****
+2025/01/13-20:43:01.055406 0x1f0523240 Recovering log #237
+2025/01/13-20:43:01.067464 0x1f0523240 Delete type=3 #236
+2025/01/13-20:43:01.067485 0x1f0523240 Delete type=0 #237
