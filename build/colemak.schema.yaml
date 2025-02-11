@@ -4,7 +4,7 @@ __build_info:
     colemak.custom: 0
     colemak.schema: 1736766733
     default: 1717774589
-    default.custom: 1736766879
+    default.custom: 1737391806
     key_bindings: 1717774589
     key_bindings.custom: 0
     punctuation: 1717774589
@@ -29,7 +29,6 @@ key_binder:
     - {accept: period, send: Page_Down, when: has_menu}
     - {accept: bracketleft, send: Page_Up, when: paging}
     - {accept: bracketright, send: Page_Down, when: has_menu}
-    - {accept: F3, select: .next, when: always}
     - {accept: "Alt+space", select: td_pinyin_flypy_extra, when: always}
   import_preset: default
 menu:

@@ -1,10 +1,10 @@
 var:
-  last_build_time: 1736780689
+  last_build_time: 1739241173
   option:
     simplification: true
-  previously_selected_schema: colemak
+  previously_selected_schema: double_pinyin_flypy
   schema_access_time:
-    colemak: 1736780139
-    double_pinyin_flypy: 1736780139
+    colemak: 1737391713
+    double_pinyin_flypy: 1737391713
     easy_en: 1729602994
     numbers: 1729602556

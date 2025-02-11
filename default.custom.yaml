@@ -1,7 +1,7 @@
 patch:
   schema_list:
     - schema: double_pinyin_flypy # 小鹤双拼
-    - schema: colemak 
+    # - schema: colemak 
 
   menu/page_size: 9 # 候选词个数
 
@@ -12,9 +12,9 @@ patch:
   ascii_composer:
     good_old_caps_lock: true
     switch_key:
-      Caps_Lock: commit_code
-      Shift_L: noop # 左 Shift，切换中英文
-      Shift_R: noop # 右 Shift，切换中英文
+      Caps_Lock: noop
+      Shift_L: commit_code # 左 Shift，切换中英文
+      Shift_R: commit_code # 右 Shift，切换中英文
       Control_L: noop # 左 Control，屏蔽该切换键
       Control_R: noop # 右 Control，屏蔽该切换键
       F3: noop
@@ -37,7 +37,7 @@ patch:
     #- { when: composing, accept: Control+e, send: End }           # "Control+e" 光标移至尾
     #- { when: composing, accept: Control+g, send: Escape }        # "Control+g" 清码
     #- { when: composing, accept: Return, send: Escape }           # "Return" 回车清码
-    - { when: always, accept: F3, select: .next }             # 切换输入方案
+    #- { when: always, accept: F3, select: .next }             # 切换输入方案
     #- { when: always, accept: Control+Shift+2, toggle: ascii_mode }        # 中/英文切换
     #- { when: always, accept: Control+Shift+3, toggle: full_shape }        # 全角/半角切换
     #- { when: always, accept: Control+Shift+4, toggle: simplification } # 繁简体切换

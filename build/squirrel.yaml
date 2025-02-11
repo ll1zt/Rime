@@ -2,8 +2,10 @@ __build_info:
   rime_version: 1.11.2
   timestamps:
     squirrel: 1717774589
-    squirrel.custom: 1736761664
+    squirrel.custom: 1738616568
 app_options:
+  app.chatwise:
+    ascii_mode: true
   com.apple.Spotlight:
     ascii_mode: true
   com.apple.Terminal:
@@ -21,11 +23,15 @@ app_options:
     ascii_mode: true
   com.runningwithcrayons.Alfred:
     ascii_mode: true
-  com.tencent.Lemon:
-    ascii_mode: true
   "com.termius-dmg.mac":
     ascii_mode: true
+  com.vivaldi.Vivaldi:
+    ascii_mode: true
   com.xunyong.hapigo:
+    ascii_mode: true
+  md.obsidian:
+    ascii_mode: true
+  net.kovidgoyal.kitty:
     ascii_mode: true
 chord_duration: 0.1
 config_version: 1.0
