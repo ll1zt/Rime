@@ -7,11 +7,11 @@ patch:
     - name: emoji_suggestion
       reset: 1
       states: [ "No", "Yes" ]
-    - name: full_shape
-      states: [ 半角, 全角 ]
-    - name: simplification
-      reset: 1
-      states: [ 漢字, 汉字 ]
+    # - name: full_shape
+    #   states: [ 半角, 全角 ]
+    # - name: simplification
+    #   reset: 1
+    #   states: [ 漢字, 汉字 ]
     - name: ascii_punct
       states: [ 。，, ．， ]
   engine/translators:
@@ -84,7 +84,7 @@ patch:
     dictionary: ""
     user_dict: custom_phrase
     db_class: stabledb
-    enable_completion: false
+    enable_completion: true
     enable_sentence: false
     initial_quality: 1
   "engine/translators/@5": table_translator@custom_phrase

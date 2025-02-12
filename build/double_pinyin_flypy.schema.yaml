@@ -2,9 +2,9 @@ __build_info:
   rime_version: 1.11.2
   timestamps:
     default: 1717774589
-    default.custom: 1739241166
-    double_pinyin_flypy.custom: 1736761665
-    double_pinyin_flypy.schema: 1736761665
+    default.custom: 1739326536
+    double_pinyin_flypy.custom: 1739326860
+    double_pinyin_flypy.schema: 1739326793
     grammar: 1736761665
     grammar.custom: 1736761664
     key_bindings: 1717774589
@@ -16,7 +16,7 @@ __build_info:
 custom_phrase:
   db_class: stabledb
   dictionary: ""
-  enable_completion: false
+  enable_completion: true
   enable_sentence: false
   initial_quality: 1
   user_dict: custom_phrase
@@ -395,11 +395,6 @@ switches:
   - name: emoji_suggestion
     reset: 1
     states: [No, Yes]
-  - name: full_shape
-    states: ["半角", "全角"]
-  - name: simplification
-    reset: 1
-    states: ["漢字", "汉字"]
   - name: ascii_punct
     states: ["。，", "．，"]
 translator:
