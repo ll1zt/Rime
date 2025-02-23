@@ -428,6 +428,8 @@ patch:
       ascii_mode: true
     app.chatwise:
       ascii_mode: true
+    com.mitchellh.ghostty:
+      ascii_mode: true
 
 
 

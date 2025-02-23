@@ -2,7 +2,7 @@ __build_info:
   rime_version: 1.11.2
   timestamps:
     squirrel: 1717774589
-    squirrel.custom: 1739241439
+    squirrel.custom: 1739773130
 app_options:
   app.chatwise:
     ascii_mode: true
@@ -17,6 +17,8 @@ app_options:
   com.microsoft.VSCode:
     ascii_mode: true
     ascii_punct: true
+  com.mitchellh.ghostty:
+    ascii_mode: true
   "com.nektony.App-Cleaner-SII":
     ascii_mode: true
   com.raycast.macos:
