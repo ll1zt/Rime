@@ -3,7 +3,7 @@ __build_info:
   timestamps:
     default: 1717774589
     default.custom: 1740294103
-    double_pinyin_flypy.custom: 1739326860
+    double_pinyin_flypy.custom: 1740298355
     double_pinyin_flypy.schema: 1739326793
     grammar: 1736761665
     grammar.custom: 1736761664
@@ -390,11 +390,14 @@ speller:
   delimiter: " '"
 switches:
   - name: ascii_mode
-    reset: 0
+    reset: 1
     states: ["中文", "西文"]
   - name: emoji_suggestion
     reset: 1
     states: [No, Yes]
+  - name: simplification
+    reset: 1
+    states: ["漢字", "汉字"]
   - name: ascii_punct
     states: ["。，", "．，"]
 translator:

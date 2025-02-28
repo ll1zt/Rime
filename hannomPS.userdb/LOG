@@ -1,2 +1,5 @@
-2025/02/23-15:03:23.737456 0x1e8ac7240 Creating DB /Users/lllzt/Library/Rime/hannomPS.userdb since it was missing.
-2025/02/23-15:03:23.760931 0x1e8ac7240 Delete type=3 #1
+2025/02/28-10:26:18.201967 0x203553240 Recovering log #24
+2025/02/28-10:26:18.202563 0x203553240 Level-0 table #26: started
+2025/02/28-10:26:18.202605 0x203553240 Level-0 table #26: 0 bytes OK
+2025/02/28-10:26:18.216065 0x203553240 Delete type=3 #22
+2025/02/28-10:26:18.216106 0x203553240 Delete type=0 #24

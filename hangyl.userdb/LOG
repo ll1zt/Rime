@@ -1,2 +1,5 @@
-2025/02/23-15:03:23.762896 0x1e8ac7240 Creating DB /Users/lllzt/Library/Rime/hangyl.userdb since it was missing.
-2025/02/23-15:03:23.790441 0x1e8ac7240 Delete type=3 #1
+2025/02/28-10:26:18.218487 0x203553240 Recovering log #24
+2025/02/28-10:26:18.218701 0x203553240 Level-0 table #26: started
+2025/02/28-10:26:18.218742 0x203553240 Level-0 table #26: 0 bytes OK
+2025/02/28-10:26:18.234054 0x203553240 Delete type=3 #22
+2025/02/28-10:26:18.234117 0x203553240 Delete type=0 #24

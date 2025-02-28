@@ -1,11 +1,11 @@
 var:
-  last_build_time: 1740294128
+  last_build_time: 1740620071
   option:
     simplification: true
-  previously_selected_schema: japanese
+  previously_selected_schema: double_pinyin_flypy
   schema_access_time:
     colemak: 1737391713
-    double_pinyin_flypy: 1739326872
-    easy_en: 1739326557
-    japanese: 1740294203
+    double_pinyin_flypy: 1740709588
+    easy_en: 1740298243
+    japanese: 1740709578
     numbers: 1729602556
