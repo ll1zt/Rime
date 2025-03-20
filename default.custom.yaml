@@ -3,7 +3,6 @@ patch:
     - schema: double_pinyin_flypy # 小鹤双拼
     - schema: japanese
     - schema: easy_en
-    # - schema: colemak 
 
   menu/page_size: 9 # 候选词个数
 
