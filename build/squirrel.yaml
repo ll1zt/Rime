@@ -2,7 +2,7 @@ __build_info:
   rime_version: 1.11.2
   timestamps:
     squirrel: 1717774589
-    squirrel.custom: 1739773130
+    squirrel.custom: 1742479187
 app_options:
   app.chatwise:
     ascii_mode: true

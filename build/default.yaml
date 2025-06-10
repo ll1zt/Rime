@@ -2,20 +2,20 @@ __build_info:
   rime_version: 1.11.2
   timestamps:
     default: 1717774589
-    default.custom: 1740294103
+    default.custom: 1742481921
     key_bindings: 1717774589
     key_bindings.custom: 0
     punctuation: 1717774589
     punctuation.custom: 0
 ascii_composer:
-  good_old_caps_lock: true
+  good_old_caps_lock: false
   switch_key:
     Caps_Lock: noop
     Control_L: noop
     Control_R: noop
     F3: noop
     Shift_L: commit_code
-    Shift_R: commit_code
+    Shift_R: noop
 config_version: 0.40
 key_binder:
   bindings:
@@ -26,6 +26,7 @@ key_binder:
     - {accept: period, send: Page_Down, when: has_menu}
     - {accept: bracketleft, send: Page_Up, when: paging}
     - {accept: bracketright, send: Page_Down, when: has_menu}
+    - {accept: "Shift+Shift_R", select: .next, when: always}
 menu:
   page_size: 9
 punctuator:
@@ -104,7 +105,6 @@ recognizer:
 schema_list:
   - schema: double_pinyin_flypy
   - schema: japanese
-  - schema: easy_en
 switcher:
   abbreviate_options: true
   caption: "〔方案選單〕"

@@ -2,9 +2,9 @@ __build_info:
   rime_version: 1.11.2
   timestamps:
     default: 1717774589
-    default.custom: 1740294103
+    default.custom: 1742481439
     easy_en.custom: 0
-    easy_en.schema: 1736761664
+    easy_en.schema: 1742479187
     key_bindings: 1717774589
     key_bindings.custom: 0
     punctuation: 1717774589
@@ -39,6 +39,7 @@ key_binder:
     - {accept: period, send: Page_Down, when: has_menu}
     - {accept: bracketleft, send: Page_Up, when: paging}
     - {accept: bracketright, send: Page_Down, when: has_menu}
+    - {accept: "Shift+Shift_L", select: .next, when: always}
   import_preset: default
 menu:
   page_size: 9

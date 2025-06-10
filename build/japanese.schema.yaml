@@ -2,9 +2,9 @@ __build_info:
   rime_version: 1.11.2
   timestamps:
     default: 1717774589
-    default.custom: 1740294103
+    default.custom: 1742481921
     japanese.custom: 0
-    japanese.schema: 1740293954
+    japanese.schema: 1742481775
     key_bindings: 1717774589
     key_bindings.custom: 0
     punctuation: 1717774589
@@ -219,23 +219,15 @@ hannom_reverse_lookup:
     - hannom_lookup
 key_binder:
   bindings:
-    - {accept: "Control+Shift+1", select: .next, when: always}
-    - {accept: "Control+Shift+n", select: japanese, when: always}
-    - {accept: "Control+Shift+N", select: japanese, when: always}
-    - {accept: "Control+Shift+k", select: korean, when: always}
-    - {accept: "Control+Shift+K", select: korean, when: always}
-    - {accept: "Control+Shift+v", select: vietnamese, when: always}
-    - {accept: "Control+Shift+V", select: vietnamese, when: always}
-    - {accept: "Control+Shift+j", select: double_jyutping_extra, when: always}
-    - {accept: "Control+Shift+J", select: double_jyutping_extra, when: always}
-    - {accept: "Control+Shift+m", select: td_pinyin_flypy_extra, when: always}
-    - {accept: "Control+Shift+M", select: td_pinyin_flypy_extra, when: always}
-    - {accept: "Control+Shift+l", select: international, when: always}
-    - {accept: "Control+Shift+L", select: international, when: always}
-    - {accept: F16, select: .next, when: always}
-    - {accept: F19, select: international, when: always}
-    - {accept: bracketleft, send: Page_Up, when: has_menu}
+    - {accept: Tab, send: "Shift+Right", when: composing}
+    - {accept: minus, send: Page_Up, when: paging}
+    - {accept: equal, send: Page_Down, when: has_menu}
+    - {accept: comma, send: Page_Up, when: paging}
+    - {accept: period, send: Page_Down, when: has_menu}
+    - {accept: bracketleft, send: Page_Up, when: paging}
     - {accept: bracketright, send: Page_Down, when: has_menu}
+    - {accept: "Shift+Shift_R", select: .next, when: always}
+  import_preset: default
 menu:
   page_size: 9
 punctuator:
@@ -453,11 +445,6 @@ switches:
   - name: ascii_mode
     reset: 0
     states: ["中文", "西文"]
-  - name: full_shape
-    states: ["半角", "全角"]
-  - name: simplification
-    reset: 0
-    states: ["漢字", "汉字"]
   - name: ascii_punct
     states: ["。，", "．，"]
 translator:
