@@ -1,17 +1,17 @@
 __build_info:
-  rime_version: 1.11.2
+  rime_version: 1.13.0
   timestamps:
-    default: 1717774589
+    default: 1737643099
     default.custom: 1742481921
     double_pinyin_flypy.custom: 1742479187
     double_pinyin_flypy.schema: 1742479187
     grammar: 1742479187
     grammar.custom: 1742479187
-    key_bindings: 1717774589
+    key_bindings: 1737643099
     key_bindings.custom: 0
-    punctuation: 1717774589
+    punctuation: 1737643099
     punctuation.custom: 0
-    symbols: 1717774589
+    symbols: 1737643099
     symbols.custom: 0
 custom_phrase:
   db_class: stabledb

@@ -1,7 +1,7 @@
 __build_info:
-  rime_version: 1.11.2
+  rime_version: 1.13.0
   timestamps:
-    squirrel: 1717774589
+    squirrel: 1737643099
     squirrel.custom: 1742479187
 app_options:
   app.chatwise:
@@ -425,6 +425,7 @@ style:
   memorize_size: true
   mutual_exclusive: false
   shadow_size: 0
+  show_paging: false
   spacing: 8
   text_orientation: horizontal
   translucency: false
